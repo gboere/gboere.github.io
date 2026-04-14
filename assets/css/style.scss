@@ -279,27 +279,7 @@ section {
 }
 
 footer {
-  grid-area: footer;
-  padding: 1.25rem 4rem;
-  border-top: 1px solid var(--border);
-  font-family: var(--mono);
-  font-size: 0.7rem;
-  color: var(--ink-3);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 1.5rem;
-  transition:
-    color 0.3s var(--ease),
-    border-color 0.3s var(--ease);
-
-  p { margin: 0; }
-
-  a {
-    color: var(--ink-3);
-    text-decoration: none;
-    transition: color var(--t) var(--ease);
-    &:hover { color: var(--accent); }
-  }
+  display: none;
 }
 
 ::-webkit-scrollbar { width: 6px; }
